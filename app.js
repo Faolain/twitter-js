@@ -16,3 +16,7 @@ var server = app.listen(3000, function () {
 app.get('/', function(req,res){
   res.send('hello world');
 });
+
+app.get('/news', function(req,res){
+  res.send('HERE ARE YOUR NEWS');
+});
